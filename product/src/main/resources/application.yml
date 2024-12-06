@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://animal:collection@exam.9knpz0s.mongodb.net/?retryWrites=true&w=majority
+      database: budgetmanagerdb
