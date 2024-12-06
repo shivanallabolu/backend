@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*", methods = {RequestMethod.POST})
+@CrossOrigin(origins = "https://budget-manager-1cyf.onrender.com", allowedHeaders = "*", methods = {RequestMethod.POST})
 @RequestMapping("/api/contact")
 public class ContactController {
 
